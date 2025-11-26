@@ -1,0 +1,40 @@
+### HTML + JavaScript
+
+- Podemos adicionar a tag <script></script> dentro da tag <head></head> ou dentro do <body></body>
+
+- Nesse caso o código ficaria engessado dessa maneira:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeira Página</title>
+  </head>
+  <body>
+    <script>
+      // Um comentário
+      console.log('Olá, mundo!');
+      console.log('Este trecho será exeibido no console do navegador!')
+    </script>
+  </body>
+</html>
+
+- Mas uma boa maneira de fazer isso é chamando os arquivos, tanto JS quanto CSS.
+    > Com o src estamos dizendo para o navegador ir até o outro arquivo.
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Primeira Página</title>
+  </head>
+  <body>
+    <script src="script/navegadorVSnode.js"></script>
+  </body>
+</html>
+
+- Não conseguimos usar a interatividade do alert(); no Node.js.
+- Importante ler os erros no log para entender o que aconteceu e onde ocorreu.
+

@@ -1,0 +1,40 @@
+### Const
+
+- Constantes é uma Constantes que não muda o valor.
+
+Regras:
+    1. Não podemos criar Constantes com palavras reservadas.
+        > const const (const é uma palavra reservada)
+        > cosnt console (console é uma palavra reservada)
+    2. Constantes precisam ter nomes significativos.
+        > const nomeCliente = 'João';
+          console.log(nomeCliente);
+    3. Não podemos começar o nome de uma Constantes com número.
+        > const 1nome = 'João';
+          console.log(1nome);
+          ERRO
+    4. Posso usar números no decorrer da Constantes.
+        > const nome1 = 'João';
+          console.log(1nome);
+    5. Não podem conter espaços ou traços.
+        > const nome = 'João';
+        > const nome Cliente = 'João';
+    6. Utilizamos camelCase para declarar Constantes.
+        > const nomeCompconstoDoCliente = 'João';
+    7. Constantes são Case-sensitive. constras maiúsculas e minúsculas fazem diferença.
+    8. Não podemos redeclarar Constantes com const.
+        > Norma da linguagem.
+    9. Não utilize VAR, utilize CONST.
+    10. A leitura da engine é de cima para baixo e da esquerda para a direita.
+    11. Não podemos modificar o valor de uma const. Fazer uma atribuição.
+    12. Preciso sempre atribuir um valor a uma const (inicializar).
+
+- Caso seja necessário mudar o valor de uma const, devemos alterar de const para let.
+
+- Posso pegar um valor de uma variável ou uma constante para outra variável ou outra constante.
+
+- Para validar o tipo de valor de uma variável é possível utilizar uma função chamada typeof dentro do console.log
+    > console.log(typeof(primeiroNumero));
+      number
+    > console.log(typeof(nome));
+      string

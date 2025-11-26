@@ -1,0 +1,83 @@
+### Variáveis
+
+- Conceito de salvar algo na memória em tempo de execução do código.
+- Podemos acoplar um valor referenciado na memória e sempre usar esse valor através de uma variável pré-definida.
+- Variáveis são itens que passam por variação.
+- Posso chamar variáveis com let ou var.
+    > var é um tipo mais antigo.
+    > Sempre usar let para criar variáveis.
+
+let nome  = 'João';
+
+console.log(nome, 'nasceu em 1984.');
+console.log('Em 2000', nome, 'conheceu Maria.');
+console.log(nome, 'casou-se com Maria em 2012.');
+console.log('Maria teve 1 filho com', nome, 'em 2015.');
+console.log('O filho de', nome, 'se chama Eduardo.');
+
+João nasceu em 1984.
+Em 2000 João conheceu Maria.
+João casou-se com Maria em 2012.
+Maria teve 1 filho com João em 2015.
+O filho de João se chama Eduardo.
+
+- Caso eu altere o valor da variável, com essa construção, teremos sempre o valor armazenado na memória sendo utilizado.
+
+let nome  = 'Fernando';
+
+console.log(nome, 'nasceu em 1984.');
+console.log('Em 2000', nome, 'conheceu Maria.');
+console.log(nome, 'casou-se com Maria em 2012.');
+console.log('Maria teve 1 filho com', nome, 'em 2015.');
+console.log('O filho de', nome, 'se chama Eduardo.');
+
+Fernando nasceu em 1984.
+Em 2000 Fernando conheceu Maria.
+Fernando casou-se com Maria em 2012.
+Maria teve 1 filho com Fernando em 2015.
+O filho de Fernando se chama Eduardo.
+
+- Posso declarar uma variável e não inicializar ela.
+- O valor undefined mostra que a variável foi delcarada, mas que ela não tem um valor armazenado.
+
+- Não posso redeclarar minha variável. 
+> Exemplo:
+
+let nome = 'Pedro';
+console.log(nome)
+let nome = 'Gustavo';
+console.log(nome)
+
+- O que posso fazer é mudar o valor da variável, sem reutilizar o let para armazenar o mesmo valor.
+
+let nome = 'Pedro';
+console.log(nome);
+nome = 'Silvana';
+console.log(nome);
+
+- O código não será utilizado ao ser redeclarado.
+
+Regras:
+    1. Não podemos criar variáveis com palavras reservadas.
+        > let let (let é uma palavra reservada)
+        > let console (console é uma palavra reservada)
+    2. Variáveis precisam ter nomes significativos.
+        > let nomeCliente = 'João';
+          console.log(nomeCliente);
+    3. Não podemos começar o nome de uma variável com número.
+        > let 1nome = 'João';
+          console.log(1nome);
+          ERRO
+    4. Posso usar números no decorrer da variável.
+        > let nome1 = 'João';
+          console.log(1nome);
+    5. Não podem conter espaços ou traços.
+        > let nome = 'João';
+        > let nome Cliente = 'João';
+    6. Utilizamos camelCase para declarar variáveis.
+        > let nomeCompletoDoCliente = 'João';
+    7. Variáveis são Case-sensitive. Letras maiúsculas e minúsculas fazem diferença.
+    8. Não podemos redeclarar variáveis com let.
+        > Norma da linguagem.
+    9. Não utilize VAR, utilize LET.
+    10. A leitura da engine é de cima para baixo e da esquerda para a direita.

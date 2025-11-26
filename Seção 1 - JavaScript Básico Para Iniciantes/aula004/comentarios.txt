@@ -1,0 +1,39 @@
+### Comentários
+
+## Comentário de Linha
+
+- Comentários são trechos de código ignorados pelo motor do JS.
+    > Fazemos isso através do //
+        > Exemplo: // console.log('Olá, mundo!)
+    > A engine do JS ignora tudo o que é feito após o //
+    > Nesse caso se fizermos com o // após o código, a engine não entenderá.
+        > console.log('Olá, mundo!) // Não lerá esse texto.
+
+- Comentários foram feitos para facilitar a leitura do código por outros desenvolvedores.
+
+// Escrever um comentário
+console.log('Olá, mundo!'); // Aqui tem outro comentário.
+console.log('Linha 1');
+// Comentário
+console.log('Linha 2');
+console.log('Linha 3');
+console.log('Linha 4');
+// Esse comentário também será ignorado.
+
+Olá, mundo!
+Linha 1
+Linha 2
+Linha 3
+Linha 4
+
+## Comentário de bloco
+
+- Para fazer um comentário de bloco é necessário abrir uma /* e fechar com */.
+
+/*
+console.log('Olá, mundo!');
+console.log('Linha 1');
+console.log('Linha 2');
+console.log('Linha 3');
+console.log('Linha 4');
+*/
