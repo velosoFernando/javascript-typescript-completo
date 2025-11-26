@@ -1,0 +1,33 @@
+### Anotações aula 03
+
+- Console é a função e log é o método dentro da função!
+- O ponto e vírgula são opcionais!
+- Dentro do parênteses usamos variáveis, valores inteiros ou strings. Para usar strings (valores literais):
+    - Strings (aspas simples): console.log('Fernando Veloso');
+    - Strings (aspas duplas): console.log("Fernando Veloso");
+        > Com aspas duplas é possível escrever console.log("Fernando 'Veloso'"); onde um texto possui aspas simples dentro do valor literal. No terminal aparece: Fernando 'Veloso'. Não é possível usar aspas duplas dentro de aspas duplas.
+    - Strings (crases): console.log(`Fernando Veloso`);
+        > Utilizado para template strings. É possível escrever assim console.log(`'Fernando' "Veloso"`); cobrindo o texto dentro das crases com aspas simples e aspas duplas. No terminal aparece: 'Fernando' "Veloso"
+- Sempre que escrevemos um console.log abaixo de outro console.log, a linha já quebra naturalmente no terminal.
+
+console.log('Fernando "Veloso"'); // String = Texto
+console.log("'Fernando' Veloso");
+console.log(`'Fernando' "Veloso"`);
+
+Fernando "Veloso"
+'Fernando' Veloso
+'Fernando' "Veloso"
+
+
+- Inserção de números literais. Não usamos aspas console.log(123456);
+- Número de ponto flutuantes. console.log(123456, 15645512.855454121);
+    - Utilizamos vírgula para separar valores sem quebrar a linha.
+
+console.log(123456); // Number = Número
+console.log(123456, 15645512.855454121);
+console.log(35, 15.85, "Fernando Veloso");
+
+123456
+123456 15645512.85545412
+35 15.85 Fernando Veloso
+
