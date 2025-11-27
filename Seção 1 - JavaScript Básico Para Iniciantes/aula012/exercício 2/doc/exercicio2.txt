@@ -1,0 +1,6 @@
+### Exercício com variáveis
+
+- Tenho as variáveis A, B e C.
+    - A variável A apresentar o valor da variável B;
+    - A variável B apresentar o valor da variável C;
+    - A variável C apresentar o valor da variável A;

@@ -1,0 +1,24 @@
+### Alert Confirm Prompt
+
+## Alert
+
+    - Envia um alerta na tela.
+        - Necessário confirmar o alertar para prosseguir com o acesso ou carregamento da tela.
+
+## Confirm 
+
+    - Envia uma janela na tela.
+        - Vem com duas opções "Cancelar" e "Ok"
+        - Esse valor pode ficar armazenado dentro de uma variável:
+            > const confirma = confirm('Realmente deseja apagar?');
+            - Para ver o valor armazenado basta digitar o nome da variável no console.
+
+## Prompt
+
+    - Adiciona um campo para o usuário digitar um valor, sendo considerado string na entrega da memória.
+        > let num1 = prompt('Digite um número!');
+        - Necessário converter de string para número
+        > let num1 = prompt('Digite um número!');
+          num1 = parseFloat(num1);
+
+          

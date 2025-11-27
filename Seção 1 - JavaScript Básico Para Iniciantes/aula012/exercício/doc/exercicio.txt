@@ -1,0 +1,9 @@
+### Exercício
+
+- Solicitar dois números através de prompt e mostrar na tela o resultado da soma desses dois números.
+
+## Atenção
+
+- Será necessário ter cuidado para não concatenar os números.
+- O resultado deve ser exibido através de um alert.
+
