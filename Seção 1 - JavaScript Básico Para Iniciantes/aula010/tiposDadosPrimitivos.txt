@@ -1,0 +1,34 @@
+### Tipos de dados primitivos!
+
+const nome = 'Luiz'; // string
+const nome1 = 'Luiz'; // string
+const nome2 = 'Luiz'; // string
+
+const num1 = 10; // number (número inteiro)
+const num2 = 10.52 // number (número flutuante)
+let nomeAluno; // undefined = Não aponta para local nenhum da memória
+let sobrenomeAluno = null; // Nulo -> Não aponta para local nenhum da memória.
+
+- Null pode ser usado como um local que aguarda a variável. 
+    > Usuário seleciona a cor RED, então deixa de ser null
+      let corUniforme = 'Red';
+      Usuário desmarca a opção RED, então volta a ser null
+      let corUniforme = 'Null';
+
+- Diferença entre NULL e UNDEFINED = Null é selecionado por mim para uma configuração manual, undefined é usado para a engine atuar sozinha.
+
+- Boolean que só pode ser verdadeiro (true) ou falso (false)
+    > const aprovado = false; // Poderia ser true
+
+QUAL A DIFERENÇA?
+
+- Temos outro tipo passado por referência.
+    > const a = [1, 2];
+      const b = a;
+      console.log(a, b);
+
+- Quando trabalhamos com referência apontamos para o mesmo valor na memória.
+
+---
+
+- Também temos SYMBOL, que veremos mais para frente.

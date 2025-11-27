@@ -1,0 +1,110 @@
+### Operadores
+
+## Aritmméticos
+    + adição, concatenação
+    - subtração
+    / divisão
+    * multiplicação
+    ** potencicação
+    % resto da divisão
+
+    - Ordem de precedência
+    () é capaz de alterar a ordem da precedência
+    **
+    *
+    /
+    %
+    + -
+
+adição
+const num1 = 5;
+const num2 = 10;
+console.log(num1 + num2);
+15
+
+concatenação
+const num1 = '5';
+const num2 = 10;
+console.log(num1 + num2);
+510
+
+subtração
+let num1 = 5;
+let num2 = 10;
+console.log(num1 - num2);
+5
+
+divisão
+let num1 = 5;
+let num2 = 10;
+console.log(num1 / num2);
+0.5
+
+multiplicação
+const num1 = 5;
+const num2 = 10;
+console.log(num1 * num2);
+50
+
+potencicação
+const num1 = 2;
+const num2 = 10;
+console.log(num1 ** num2);
+1024
+
+resto da divisão
+const num1 = 10;
+const num2 = 3;
+console.log(num1 % num2);
+1
+
+ordem de precedência:
+const num1 = 5;
+const num2 = 2;
+const num3 = 10;
+console.log((num1 + num2) * num3);
+
+## Incremento
+
+- Incremento usa os operadores ++ (pós e pré)
+    // Operador de incremento
+    // Só funciona com let
+    // ++contador (pré) primeiro faz a conta e depois retorna o valor
+    // contador++ (pós) primeiro executa a ação e depois adiciona o valor
+
+- Decremento usa os operadores -- (pós e pré)
+    // Operador de decremento
+    // Só funciona com let
+    // --contador(pré)
+    // contador-- (pós)
+
+- Quando for necessário incrementar mais de 1 em 1:
+    - const passo = 2; // Minha constante será de 2 em 2.
+      let contador = 0;
+      contador = contador + passo;
+      console.log(contador);
+
+      ou
+
+## Atribuição
+
+      const passo = 2;
+      let contador = 0;
+      contador += passo; // contador é igual ao seu valor + passo
+      contador *= passo;
+      contador -= passo;
+      contador /= passo;
+      contador **= passo;
+      
+      > Posso executar com qualquer operador
+
+
+## Converter uma string para um número
+
+    1. Primeira forma
+       const num1 = parseInt('5'); // Trabalha com números inteiros
+    2. Segunda forma
+       const num1 = parseFloat('5.2') // Trabalha com números flutuantes
+    3. Terceira forma
+       const num1 = Number('5.2') // Entende qualquer número
+       > MELHOR FORMATO

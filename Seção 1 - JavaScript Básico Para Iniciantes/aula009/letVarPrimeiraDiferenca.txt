@@ -1,0 +1,20 @@
+### Diferença de LET e VAR
+
+    1. Com let não posso redeclarar a minha variável.
+
+var nome = 'Luiz';
+var nome = 'Otavio';
+console.log(nome);
+
+LOG:
+Otavio
+
+let nome = 'Fernando';
+let nome = 'Veloso'
+console.log(nome);
+
+LOG:
+
+let nome = 'Veloso'
+    ^
+SyntaxError: Identifier 'nome' has already been declared
