@@ -1,0 +1,35 @@
+### Numbers
+
+- Se eu quiser converter um number para string:
+    - let num1 = 1;
+      let num2 = 2.5;
+      console.log(num1.toString() + num2);
+      12.5
+    - Estou mantendo num1 como number. Para alterar ele para string permanentemente será necessário substituir a variável:
+      let num1 = 1;
+      let num2 = 2.5;
+      num1 = num1.toString();
+      console.log(num1.toString() + num2);
+      12.5
+
+- Para mostrar uma string de forma binária:
+      let num3 = 10;
+      console.log(num3.toString(2));
+      1010
+
+- Para arredondar um número extenso:
+      let num4 = 10.578955125547;
+      console.log(num4.toFixed(2)); // aqui estou dizendo que quero 2 casas após o ponto
+      10.58
+
+- Para saber se um valor é inteiro:
+      let num1 = 1;
+      console.log(Number.isInteger(num1));
+      true // pois o número é inteiro
+
+      let num1 = 1.12;
+      console.log(Number.isInteger(num1));
+      false // pois o número não é inteiro
+
+
+

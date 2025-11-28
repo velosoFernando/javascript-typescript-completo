@@ -1,0 +1,9 @@
+### Objeto Math
+
+- O objeto MATH tem diversas funções para utilizarmos.
+    > .floor == arredonda para baixo
+    > .ceil == arredonda para cima
+    > .round == método que arredonda para o número mais próximo
+    > .max == pega o maior número da sequência
+    > .min == pega o menor número da sequência
+    > .random == gera um número aleatório
