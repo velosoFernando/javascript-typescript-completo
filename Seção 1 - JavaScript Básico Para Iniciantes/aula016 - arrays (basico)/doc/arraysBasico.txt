@@ -1,0 +1,61 @@
+### Arrays
+
+- É uma lista ou uma coleção de coisas.
+
+- const alunos = ['Luiz', 'Maria', 'João'];
+    - usamos colchetes para adicionar uma lista array
+    - é possível usar diferentes objetos, mas não é recomendado
+    - os arrays são indexados por elementos
+    >                  0       1        2
+    > const alunos = ['Luiz', 'Maria', 'João'];
+      console.log(alunos[2]);
+      João
+    
+    - posso editar o valor dentro de um array através do index
+    > const alunos = ['Luiz', 'Maria', 'João'];
+      alunos[0] = 'Eduardo'; // transforma o index 0 (nesse caso Luiz) em Eduardo
+      console.log(alunos);
+      [ 'Eduardo', 'Maria', 'João' ]
+
+    - uma das maneiras para adicionar um item a um array é
+    > const alunos = ['Luiz', 'Maria', 'João'];
+      alunos[3] = 'Fernando'; // como temos os indexados 0, 1 e 2, o 3 passa a ser adicionado a lista
+      [ 'Eduardo', 'Maria', 'João', 'Fernando' ]
+
+      - o problema dessa maneira é saber quantos elementos tem, qual o último índice 
+      - para saber o tamanho de um array
+      > const alunos = ['Luiz', 'Maria', 'João'];
+        console.log(alunos.lenght)
+    
+    - outra maneira (adicionando o length que já calcula automaticamente a posição)
+    > const alunos = ['Luiz', 'Maria', 'João'];
+      alunos[alunos.length] = 'Luiza';
+      alunos[alunos.length] = 'Giovana';
+      alunos[alunos.length] = 'Silvio';
+      Eduardo', 'Maria',
+      'João',    'Fernando',
+      'Luiza',   'Giovana',
+      'Silvio'
+    
+    - e a melhor maneira é usando o método push, que adiciona um novo índice ao array
+    > const alunos = ['Luiz', 'Maria', 'João'];
+      alunos.push('Pedro');
+      alunos.push('Silvana');
+      [
+      'Luiz', 'Maria',
+      'João',    'Fernando',
+      'Luiza',   'Giovana',
+      'Silvio',  'Pedro',
+      'Silvana'
+      ]
+
+
+    - para adicionar um elemento no índice 0, jogando os demais para trás:
+    > const alunos = ['Luiz', 'Maria', 'João'];
+      alunos.unshift('Marcelo');
+      ['Marcelo', 'Luiz', 'Maria', 'João']
+    
+    - para remover um item ao fim do array (sem selecionar especificamente)
+    > alunos.pop();
+
+- o typeof do array é um object (a diferença é que ele é indexado automaticamente)
