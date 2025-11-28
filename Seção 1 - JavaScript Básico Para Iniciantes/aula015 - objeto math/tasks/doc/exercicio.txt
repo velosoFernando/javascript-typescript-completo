@@ -1,0 +1,15 @@
+### Exercícios Aula 14
+
+- Vamos usar id nos elementos para chamá-los no JS.
+- Mexer no document é manipular o DOM (document object model).
+- Só podemos ter 1 elemento por ID na página.
+- Existem várias capturas por elementos (id, class etc)
+
+### Tarefas
+
+- Raíz quadrada;
+- Número é inteiro? tem que dar true
+- É NaN? tem que dar false
+- Arredondando para baixo
+- Arredondando para cima
+- Com duas casas decimais
